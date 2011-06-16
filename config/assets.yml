@@ -1,0 +1,20 @@
+javascripts:
+  templates:
+    - app/views/home/*.jst
+    - app/views/login/*.jst
+
+  all:
+    - public/javascripts/jquery.js
+    - public/javascripts/underscore.js
+    - public/javascripts/backbone.js
+    - public/javascripts/models/*
+    - public/javascripts/collections/*
+    - public/javascripts/views/*
+    - public/javascripts/controllers/*
+    - public/javascripts/application.js
+
+stylesheets:
+  all:
+    - public/stylesheets/screen.css
+#    - public/stylesheets/application.css
+#    - public/stylesheets/print.css
